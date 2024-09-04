@@ -1,6 +1,4 @@
-def multip (lista):
-    multiplicacion = 1
-    for i in lista:
-        multiplicacion *= i
-    print (multiplicacion)
-multip([4,2,6])
+edad = input("¿Cuántos años tienes? ")
+edad = int(edad)  # Convertir la entrada a un número entero
+print(f"Tienes {edad} años.")
+print (8*edad)
